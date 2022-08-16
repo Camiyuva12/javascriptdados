@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>portafolio JB</title>
+   
+</head>
+
+<body>
+
+    <header class="header">
+
+
+        <img class="logo" src="port.webp" width="50px" height="50px">
+
+        <ul class="menu">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#formacao">FORMAÇÃO</a></li>
+            <li><a href="#curriculo">CURRICULO</a></li>
+            <LI><a href="redes">REDES</a></LI>
+            <li><a href="#projetos">PROJETOS</a></li>
+            <li><a href="#contato">CONTATO AQUI!</a></li>
+        </ul>
+    </header>
+
+    <section class="imagenfondo">
+
+        <img src="img2.png" alt="imagenfondo" width="100%" height="350px">
+
+    </section>
+
+    <section class="biografia">
+        <picture>
+
+            <div class="fotomia">
+                <source media="(max-width: 600px)" srcset="img.1.jpg">
+                <img src="img.1.jpg" alt="fotomia" width="300px" height="200px">
+            </div>
+
+            <div class="redes00">
+                <source media="(max-width: 600px)" srcset="lin.jpg">
+                <a href="linkedin"><img src="lin.jpg" width="50px" height="50px"></a>
+
+
+            </div>
+
+        </picture>
+
+
+        <div class="biografia1">
+            <h1>JOHANA BRITO</h1>
+            <h2>Back End Developer</h2>
+
+            <div class="biografia1-paragrafo">
+                <h4>Olá!</h4>
+                <p>Aqui deixo um pouco sobre minha vida, sou nascida na Venezuela.
+                    Minha experiência profissional começou aos 17 anos, em uma instituição chamada INCE, ali
+                    obtive meu primeiro diploma como Escriturário Financeiro Integral onde fiz treinamento teorico e
+                    pratico
+                    durante dois anos na <span>(CORP BANCA)</span>, depois Trabalhei no <span>(BANCO GUAYANA)</span>
+                    onde
+                    fiz
+                    cursos sobre lavagem de dinheiro, depois de um tempo surgiu uma oportunidade no
+                    <span>(BANESCO)</span>
+                    onde trabalhei durante 6 anos começando na área de caixa e promotor financeiro até chegar na área de
+                    recursos humanos.
+                    En quanto estive naquela instituição (Banesco), fiz uma série de cursos como bases contábeis na área
+                    financeira, lavagem de dinheiro. Deve-se notar que durante o período em que trabalhei no Banesco fiz
+                    estudos universitários na <span>(IUTIRLA)</span> onde me formei com o título de Técnico Superior em
+                    Relações
+                    Industriais (durante 3 anos) toda essa experiência e estudos foram realizados na Venezuela ,
+                    minha terra natal.
+            </div>
+
+    </section>
+    <section class="formacao">
+
+        <h3>FORMAÇÃO</h3>
+
+        <div class="estudos">
+            <p class="estudos-ano">2005 - 2008</p>
+            <p class="estudos-carrera">T.S.U RELACOES INDUSTRIAIS</p>
+            <p class="estudos-inst">IUTIRLA. VENEZUELA</p>
+        </div>
+
+    </section>
+
+    <section class="experiencia">
+        <h3>EXPERIENCIA</h3>
+
+        <div class="experiencia-1">
+            <p class="experiencia-ano">2005 - 2012</p>
+            <p class="experiencia-cargo">Asistente Financeiro</p>
+            <p class="experiencia-inst">Banesco VENEZUELA</p>
+        </div>
+    </section>
+
+    <section class="projetos">
+
+        <div class="titulo-projeto">
+            <h3>PROJETOS</h3>
+        </div>
+        <div class="card-grupo">
+            <div class="card">
+                <h2>Receita de bolo</h2>
+                <img src="torta-chocolate.jpg">
+                <p>Ola, este projeto trata sobre a creacao de uma receita para fazer o bolo de chocolote muito facil.
+                </p>
+                <div class="button">
+                    <button>Ver Demo</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>portafolio</h2>
+                <img src="port.webp">
+                <p>Ola, este projeto esta feito para compartir um pouco sobre minha vida profesional.</p>
+                <div class="button">
+                    <button>Ver Demo</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Titulo</h2>
+                <img src="">
+                <p>Hello , this is a nice picture , i hope you to like it , it was taken by me you can contact me to buy
+                    it ...</p>
+                <div class="button">
+                    <button>Read More</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contato">
+        <div class="contato-titulo">
+
+            <h3>CONTATO</h3>
+
+            <div class="contato-parrafo1">
+                <p>Quer entrar em contato comigo</p>
+                <p>Preencha o formulario e entrarei em contato o mais rapido possivel!</p>
+
+            </div>
+            <form id="formulario" name="formcontato">
+            <div class="nome">
+
+                <label for="name">Nome:</label>
+                <div>
+                    <ul>
+                        <li><input type="text" name="nome" id="nome" placeholder="Nome Completo"/></li>
+                    </ul>
+                </div>
+                <p id="alert"></p>
+            </div>
+            <div class="imail">
+
+                <label for="correo">Email:</label>
+                <div>
+                    <ul>
+                        <li><input type="email" name="email" id="email" placeholder="exemplo@gmail.com"/></li>
+
+                    </ul>
+                </div>
+               
+            </div>
+            <p id="alertEmail"></p>
+            <div class="mensagem">
+
+
+                <label for="mensagem">Mensagem:</label>
+                <div>
+                    <ul>
+                        <li><input type="tel" name="mensagem" id="cel" placeholder="Mensagem"/></li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+             <button type="submit" value="Enviar">Enviar</button>
+
+            </form>
+        </div>
+
+        </div>
+    </section>
+
+    <section class="redes-sociais">
+        <div class="red-1">
+            <source media="(max-width: 600px)" srcset="lin.jpg">
+            <a href="linkedin"><img src="lin.jpg" width="60px" height="60px"></a>
+        </div>
+        <div class="red-2">
+            <source media="(max-width: 600px)" srcset="GitHub.jpg">
+            <a href="github"><img src="GitHub.jpg" width="60px" height="60px"></a>
+
+        </div>
+
+
+    </section>
+
+    </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
